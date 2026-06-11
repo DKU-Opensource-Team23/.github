@@ -1,5 +1,5 @@
 # :wrench: 비었곰 개발자 가이드
-### 1. 프로젝트 구조
+## 1. 프로젝트 구조
 <details>
 <summary><b>Empty-Bear-FE(Frontend) 구조 보기</b></summary>
 
@@ -501,7 +501,7 @@
 
 </details>
 
-### 2. 환경 설정
+## 2. 환경 설정
 * Gradle: Gradle 8.x 이상
 * JDK: Java 17 권장
 * MySQL: MySQL 8.4 권장
@@ -511,7 +511,7 @@
 * React: React 19.2.6 사용
 
 
-### 3. API 명세
+## 3. API 명세
 * Auth
   * POST
     * `/api/auth/signup` : 회원가입
@@ -557,7 +557,7 @@
     * `/api/tags/reviews` : 리뷰 태그 목록 조회
 
 
-### 4. 커밋 컨벤션
+## 4. 커밋 컨벤션
 * `타입: 제목` 형식으로 작성합니다.
   * ex) `git commit -m "feat: 로그인 UI 및 validation 추가"`
 * 한 커밋에는 한 가지 문제만 다룹니다.
@@ -582,13 +582,11 @@
 | docs | 문서 작성 | |
 
 
-### 5. 이슈 관리
+## 5. 이슈 관리
 * 이슈 제목에는 [FEAT] 와 같은 태그를 붙입니다.
 * 이슈 템플릿에 맞춰 작성합니다.
 * PR 작성 시 반드시 이슈 번호를 연결합니다.
 
 
-### [README](README.md)
-
-### [사용자 가이드](User_Guide.md)
+### [README](README.md) &emsp; [사용자 가이드](User_Guide.md)
 ---
