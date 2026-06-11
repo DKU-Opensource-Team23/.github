@@ -63,13 +63,10 @@
     │   ├── App.jsx
     │   └── main.jsx
     ├── .gitignore
-    ├── Developer_Guide.md
     ├── eslint.config.js
     ├── index.html
     ├── package-lock.json
     ├── package.json
-    ├── README.md
-    ├── User_Guide.md
     └── vite.config.js
 ```
 </details>
