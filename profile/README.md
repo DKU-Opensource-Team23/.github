@@ -16,7 +16,10 @@
   * 강의실 카드 우상단 별표로 츨겨찾기
   * 즐겨찾기 된 강의실 목록 확인
 
-## 3. 실행 방법
+## 3. 시스템 아키텍처
+<img width="487" height="127" alt="image" src="https://github.com/user-attachments/assets/faa3038a-e0e8-45d0-bc96-7af6558ba74c" />
+
+## 4. 실행 방법
 ### [EmptyBear-FE](https://github.com/DKU-Opensource-Team23/Empty-Bear-FE) &emsp; [EmptyBear-BE](https://github.com/DKU-Opensource-Team23/Empty-Bear-BE)
 1. 저장소 복제  
    `git clone https://github.com/DKU-Opensource-Team23/Empty-Bear-FE.git`  
@@ -27,10 +30,10 @@
     `npm install`  
     `npm run dev`
 
-## 4. 문서
+## 5. 문서
 ### [사용자 가이드](User_Guide.md) &emsp; [개발자 가이드](Developer_Guide.md)
 
-## 5. 팀
+## 6. 팀원 소개
 - 조하은: 백엔드 및 데이터 처리 - 인증, 사용자, 강의실/건물 API, DB 구조 및 백엔드 API 구현
 - 김태민: 지도 UI 및 통합 - 건물/층 기반 지도 UI, 평면도와 강의실 리스트 연동, 통합 테스트
 - 이동섭: 프론트엔드 UI/UX - 추천 조건 입력 화면, 추천 결과 리스트, 즐겨찾기 화면 구성
