@@ -1,8 +1,8 @@
 # :bear: 비었곰 프로젝트 README
-### 1. 프로젝트 소개
+## 1. 프로젝트 소개
 비었곰(EmptyBear)은 학생들이 빈 강의실을 빠르게 탐색할 수 있도록 돕는 서비스입니다.  
 단국대학교 강의 시간표 데이터를 기반으로 현재 시각에 사용 가능한 강의실을 계산하여 강의실을 추천합니다.
-### 2. 주요 기능
+## 2. 주요 기능
 * 홈
   * 프로필 및 선호 설정 수정
   * 최근 조회 강의실 확인
@@ -16,7 +16,8 @@
   * 강의실 카드 우상단 별표로 츨겨찾기
   * 즐겨찾기 된 강의실 목록 확인
 
-### 3. 실행 방법
+## 3. 실행 방법
+### [EmptyBear-FE](https://github.com/DKU-Opensource-Team23/Empty-Bear-FE) &emsp; [EmptyBear-BE](https://github.com/DKU-Opensource-Team23/Empty-Bear-BE)
 1. 저장소 복제  
    `git clone https://github.com/DKU-Opensource-Team23/Empty-Bear-FE.git`  
    `git clone https://github.com/DKU-Opensource-Team23/Empty-Bear-BE.git`
@@ -26,7 +27,13 @@
     `npm install`  
     `npm run dev`
 
-### [사용자 가이드](User_Guide.md)
+## 4. 문서
+### [사용자 가이드](User_Guide.md) &emsp; [개발자 가이드](Developer_Guide.md)
 
-### [개발자 가이드](Developer_Guide.md)
+## 5. 팀
+- 조하은: 백엔드 및 데이터 처리 - 인증, 사용자, 강의실/건물 API, DB 구조 및 백엔드 API 구현
+- 김태민: 지도 UI 및 통합 - 건물/층 기반 지도 UI, 평면도와 강의실 리스트 연동, 통합 테스트
+- 이동섭: 프론트엔드 UI/UX - 추천 조건 입력 화면, 추천 결과 리스트, 즐겨찾기 화면 구성
+- 하지원: 추천시스템 및 데이터 처리 - 추천 로직 설계, 시간표 데이터 정제, 조건 필터링, 점수 계산및 정렬
+
 ---
