@@ -1,45 +1,32 @@
-# 비었곰
+# :bear: 비었곰 프로젝트 README
+### 1. 프로젝트 소개
+비었곰(EmptyBear)은 학생들이 빈 강의실을 빠르게 탐색할 수 있도록 돕는 서비스입니다.  
+단국대학교 강의 시간표 데이터를 기반으로 현재 시각에 사용 가능한 강의실을 계산하여 강의실을 추천합니다.
+### 2. 주요 기능
+* 홈
+  * 프로필 및 선호 설정 수정
+  * 최근 조회 강의실 확인
+* 검색
+  * 사용 가능 시간, 건물, 콘센트 여부로 필터링하여 빈 강의실을 탐색
+  * 선호 설정을 통해 검색 설정 자동화
+* 지도
+  * 캠퍼스 지도에서 건물을 선택하여 건물 층별 평면도 확인
+  * 층별 평면도 및 층별 강의실 확인
+* 즐겨찾기
+  * 강의실 카드 우상단 별표로 츨겨찾기
+  * 즐겨찾기 된 강의실 목록 확인
 
-비었곰(EmptyBear)은 현재 시각 기준으로 사용 가능한 빈 강의실을 탐색하고,  
-사용자 조건에 맞는 공부 공간을 추천하는 서비스입니다.
+### 3. 실행 방법
+1. 저장소 복제  
+   `git clone https://github.com/DKU-Opensource-Team23/Empty-Bear-FE.git`  
+   `git clone https://github.com/DKU-Opensource-Team23/Empty-Bear-BE.git`
+2. 백엔드 서버 실행  
+    `gradlew bootrun`
+3. 개발 실행  
+    `npm install`  
+    `npm run dev`
 
-## Repository
+### [사용자 가이드](User_Guide.md)
 
-- Frontend: [EmptyBear-FE](https://github.com/DKU-Opensource-Team23/Empty-Bear-FE)
-- Backend: [EmptyBear-BE](https://github.com/DKU-Opensource-Team23/Empty-Bear-BE)
-
-## Features
-
-- 조건 기반 강의실 추천
-- 지도 기반 강의실 탐색
-- 층별 평면도 및 강의실 상태 시각화
-- 즐겨찾기 기능
-- 강의실 상세 정보 및 리뷰 기능
-
-## Tech Stack
-
-### Frontend
-- React
-- 지도 API
-
-### Backend
-- Spring Boot
-- Java
-- MySQL
-
-## Team
-
-- 조하은: 백엔드
-- 하지원: 추천 시스템 / 데이터 처리
-- 이동섭: 프론트엔드 UI/UX
-- 김태민: 지도 UI / 프론트 보조 / 통합
-
-## Documents
-
-- Notion: [링크 추가 예정]
-- API 명세서: [링크 추가 예정]
-
-## Goal
-
-단순한 시간표 조회를 넘어,  
-현재 시점에서 가장 적합한 공부 공간을 빠르게 선택할 수 있도록 지원하는 것을 목표로 합니다.
+### [개발자 가이드](Developer_Guide.md)
+---
